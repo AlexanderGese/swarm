@@ -1,5 +1,6 @@
 mod bencode;
 mod metainfo;
+mod peer;
 mod sha1;
 mod tracker;
 
