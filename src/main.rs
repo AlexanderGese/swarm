@@ -1,6 +1,7 @@
 mod bencode;
 mod metainfo;
 mod sha1;
+mod tracker;
 
 use std::process::ExitCode;
 
