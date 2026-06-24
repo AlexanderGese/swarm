@@ -1,0 +1,15 @@
+{
+  "name": "swarm_web",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "swarm_web_bg.wasm",
+    "swarm_web.js",
+    "swarm_web.d.ts"
+  ],
+  "main": "swarm_web.js",
+  "types": "swarm_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
