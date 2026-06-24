@@ -1,4 +1,5 @@
 mod bencode;
+mod download;
 mod metainfo;
 mod peer;
 mod sha1;
