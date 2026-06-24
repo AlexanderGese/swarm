@@ -3,6 +3,7 @@ mod download;
 mod metainfo;
 mod peer;
 mod sha1;
+mod sim;
 mod tracker;
 
 use std::process::ExitCode;
