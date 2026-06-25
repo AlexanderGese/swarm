@@ -1,10 +1,14 @@
 # swarm
 
+[![crates.io](https://img.shields.io/crates/v/swarm-bt.svg)](https://crates.io/crates/swarm-bt)
+[![license](https://img.shields.io/crates/l/swarm-bt.svg)](LICENSE)
+[![demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://alexandergese.github.io/swarm/)
+
 A small BitTorrent client written from scratch in Rust — bencode, the tracker
 protocol, the peer wire protocol and piece verification, no torrent libraries.
 
-There's a browser demo (the piece-picking, simulated, plus a `.torrent`
-inspector): **https://alexandergese.github.io/swarm/**
+Install: **`cargo install swarm-bt`** · Browser demo (simulated piece-picking +
+a `.torrent` inspector): **https://alexandergese.github.io/swarm/**
 
 ## What it does
 
