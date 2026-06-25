@@ -38,6 +38,15 @@ cargo build --release
 cargo test
 ```
 
+## Install
+
+```
+cargo install swarm-bt        # installs the `swarm` binary
+```
+
+(The crate is published as `swarm-bt` — the name `swarm` was taken — but the
+command it installs is `swarm`.)
+
 ## License
 
 MIT

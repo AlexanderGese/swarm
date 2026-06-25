@@ -1,7 +1,22 @@
 [package]
-name = "swarm"
+name = "swarm-bt"
 version = "0.1.0"
 edition = "2021"
+description = "A small from-scratch BitTorrent client — bencode, tracker + peer wire protocols, SHA-1 piece verification, and a live TUI. No torrent libraries."
+license = "MIT"
+repository = "https://github.com/AlexanderGese/swarm"
+homepage = "https://alexandergese.github.io/swarm/"
+readme = "README.md"
+keywords = ["bittorrent", "torrent", "p2p", "cli", "tui"]
+categories = ["command-line-utilities", "network-programming"]
+authors = ["Alexander Gese <alexander.gese07@gmail.com>"]
+exclude = ["web/**", "docs/**", "*.torrent"]
+
+# The published crate is `swarm-bt` (the name `swarm` is taken), but the
+# installed binary stays `swarm`: `cargo install swarm-bt` gives you `swarm`.
+[[bin]]
+name = "swarm"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
